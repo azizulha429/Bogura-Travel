@@ -1,7 +1,138 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
+/* Common style */
 * {
   margin: 0;
   padding: 0;
   font-family: "Mulish", sans-serif;
+}
+
+.important {
+  color: #FF5400;
+}
+
+.container {
+  width: 85%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+p {
+  color: #FFF;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+button {
+  color: #424247;
+  font-size: 1.25rem;
+  font-weight: 600;
+  background: #FF5400;
+  padding: .2rem .8rem;
+  border-radius: .5rem;
+  color: #ffffffcb;
+  transition: all 1s;
+  border: none;
+}
+
+button:hover {
+  background: #8b370c;
+  color: #ffffff;
+}
+
+/* NAVBAR STYLE */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.nav-icon {
+  display: flex;
+  align-items: center;
+}
+
+.nav-icon img {
+  width: 4rem;
+}
+
+.nav-icon p {
+  text-transform: uppercase;
+  color: #131318;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-item li {
+  list-style: none;
+}
+
+.nav-item a {
+  color: var(--Dark-02, #424247);
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.nav-item a:hover {
+  color: #FF5400;
+}
+
+/* BANNER STYLE */
+.banner {
+  background-image: url(../images/banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 7rem 10rem;
+  border-radius: .5rem;
+  color: #ffffff;
+}
+
+.banner * {
+  margin: .5rem 0;
+}
+
+.banner h2 {
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.banner-input {
+  display: flex;
+  gap: .5rem;
+  margin: 1.4rem 0;
+  justify-content: center;
+  align-items: center;
+  border-radius: .5rem;
+  padding: 1rem 1.5rem;
+  background: rgba(255, 255, 255, 0.30);
+  
+}
+
+.banner-input input {
+  border: none;
+  outline: none;
+  padding: .5rem .7rem;
+  color: rgba(39, 39, 39, 0.60);
+  border-radius: .5rem;
+  width: 11rem;
+  font-size: 20px;
+}
+
+.banner-input select {
+  width: 11rem;
+  border: none;
+  outline: none;
+  border-radius: .5rem;
+  padding: .5rem .7rem;
+  font-size: 20px;
 }

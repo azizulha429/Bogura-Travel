@@ -1,0 +1,28 @@
+@media screen and (max-width:576px) {
+  .navbar{
+    flex-direction: column;
+  }
+ 
+  .container{
+    width: 100%;
+  }
+  .banner{
+    padding: 3rem 2rem;
+  }
+  .banner h2 {
+    font-size: 2rem;
+  }
+  .banner-input {
+    flex-direction: column;
+    text-align: center;
+  }
+  .banner-input input{
+    width: 100%;
+  }
+  .banner-input select{
+    width: 100%;
+  }
+  .btn-primary{
+    width: 100%;
+  }
+}
