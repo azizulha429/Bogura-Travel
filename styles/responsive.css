@@ -49,4 +49,7 @@
   .newsletter-img img{
     width: 100%;
   }
+  .testimonial-client{
+    flex-direction: column;
+  }
 }
