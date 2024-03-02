@@ -25,4 +25,10 @@
   .btn-primary{
     width: 100%;
   }
+  .popular-section{
+    flex-direction: column;
+  }
+  .popular-img img{
+    width: 100%;
+  }
 }
