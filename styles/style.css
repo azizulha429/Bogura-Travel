@@ -359,6 +359,30 @@ button:hover {
   text-align: center;
   margin: 1rem 0;
 }
+/* testimonial-section */
+.testimonial-section>h2{
+  text-align: center;
+}
+.testimonial-section>p{
+  text-align: center;
+}
+.testimonial-client{
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 2rem;
+}
+.testimonial-section p{
+  color: rgba(19, 19, 24, 0.70);
+}
+.testimonial-info{
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+.testimonial-info img{
+  width: 4rem;
+}
 
 .newsletter {
   display: flex;
@@ -381,4 +405,26 @@ button:hover {
 .newsletter-img img {
   width: 42rem;
   height: 26rem;
+}
+
+footer {
+  background: rgba(19, 19, 24, 0.05);
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-icon p {
+  font-size: 1.5rem;
+  color: #5A5A5D;
+}
+
+.footer-desc {
+  color: #5A5A5D;
+}
+.footer-hr{
+  width: 80%;
+  margin: .3rem 0;
 }

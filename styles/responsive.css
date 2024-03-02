@@ -43,6 +43,9 @@
   .destination-info3{
     grid-template-columns: repeat(1, 1fr);
   }
+  .testimonial-section{
+    flex-direction: column;
+  }
   .newsletter-img img{
     width: 100%;
   }
