@@ -268,3 +268,117 @@ button:hover {
 .choose-desc h2 {
   font-size: 1.5rem;
 }
+
+/* DISCOUNTS SECTION STYLE */
+.section-title {
+  text-align: center;
+}
+
+.section-sub-title {
+  text-align: center;
+}
+
+.discounts-section p {
+  color: rgba(19, 19, 24, 0.70);
+}
+
+.discount-info {
+  background: url(../images/group9.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: end;
+  margin-top: 2rem;
+}
+
+.discount-info2 {
+  background: url(../images/group8.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: left;
+  margin-top: 2rem;
+}
+
+.discount-info3 {
+  background: url(../images/group9.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: end;
+  margin-top: 2rem;
+}
+
+.discount-desc {
+  border-radius: 16px;
+  border: 1px solid #FFF;
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(2.5px);
+  width: 32rem;
+  height: 18rem;
+  margin: 4rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.discount-desc * {
+  margin: .5rem 0;
+}
+
+.booking {
+  display: flex;
+  gap: 1rem;
+}
+
+.booking h3 {
+  color: #FF5400;
+}
+
+.discount-desc h2 {
+  font-size: 1.5rem;
+}
+
+.discount-desc p {
+  color: rgba(19, 19, 24, 0.70);
+}
+
+.discount-desc h3 {
+  color: #FF5400;
+  font-weight: 800;
+}
+
+.btn-primary {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  border: 1px solid #FF5400;
+  padding: 1rem 2rem;
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.newsletter-form input {
+  padding: .4rem .2rem;
+  font-size: 1.2rem;
+}
+
+.newsletter-img img {
+  width: 42rem;
+  height: 26rem;
+}
