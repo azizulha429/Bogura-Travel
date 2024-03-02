@@ -62,6 +62,9 @@ button:hover {
 .nav-icon img {
   width: 4rem;
 }
+.hambars{
+  display: none;
+}
 
 .nav-icon p {
   text-transform: uppercase;

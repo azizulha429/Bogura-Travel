@@ -1,6 +1,12 @@
 @media screen and (max-width:576px) {
   .navbar{
-    flex-direction: column;
+    margin: 10px;
+  }
+  .hambars{
+    display: block;
+  }
+  .nav-item{
+    display: none;
   }
  
   .container{
