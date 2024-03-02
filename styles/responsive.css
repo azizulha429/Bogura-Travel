@@ -31,4 +31,16 @@
   .popular-img img{
     width: 100%;
   }
+  .destination-section h2{
+    font-size: 1.5rem;
+  }
+  .destination-info1{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .destination-info2{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .destination-info3{
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
